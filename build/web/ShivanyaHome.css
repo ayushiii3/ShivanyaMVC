@@ -1,0 +1,516 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color: #ffffff;
+}
+
+/*...................................... global */
+
+.container1{
+    width:90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    margin:0px;
+    padding:0;
+}
+
+h2 {
+    margin:0px;
+    padding:0px;
+}
+
+
+/* .....................................header */
+header{
+    background:#ffffff;
+    color: rgb(0, 0, 0);
+    padding-top:10px;
+    min-height:70px;
+    border-bottom: black 2px solid;
+}
+
+#shivanyaenterprises-logo{
+    height:70px;
+    width: auto;
+    float:left;
+    margin-bottom: 10px;
+}
+
+#branding{
+    font-size:25px;
+    font-weight: bolder;
+    width:290px;
+    height: 40px;
+    float:left;
+    margin-top:25px;
+    margin-left:20px;
+}
+
+
+header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+header a:link,
+header a:visited{
+    color: rgb(0, 0, 0);
+    border: 2px rgb(255, 255, 255) solid;
+    padding: 10px;
+    border-radius:5%;
+    transition: border .5s;
+}
+
+header a:hover,
+header a:active{
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+header li {
+    display:inline;
+    padding: 0 5px 0 5px;
+    margin:1px;
+    font-weight:bolder;
+}
+
+header .container2{
+    float: right;
+    margin-top:25px;
+    /* animation: move-down 1s; */
+    
+}
+
+.links{
+    display:inline;
+    margin-left: 10px;
+    padding: 12px 8px 12px 8px;
+    background-color: rgb(191, 214, 240);
+    border:2px black solid;
+    /*border-radius:5px;*/
+    font-weight: bold;
+    transition: border .3s;
+    transition: background-color .7s;
+}
+.links:hover{
+    border:2px black solid;
+    /*border-radius:5px;*/
+    cursor: pointer;
+    background-color:#123c69;
+    color:white;
+}
+
+@keyframes move-down{
+    from{transform: translateY(-50px);}
+    to{transform: translateY(0px);}
+}
+
+/*            Login Form            */
+            .loginForm{
+                width:400px;
+                height:400px;
+                /*border:3px #E14E39 solid;*/
+                border-radius: 10px;
+                padding:0px;
+            }
+            .loginForm::backdrop {
+                background-color: rgba(0, 0, 0, 0.7);
+            }
+            
+            .close-login{
+                float: right;
+                margin: 1px 9px 0px 0px;
+                font-size: 25px;
+                text-align: center;
+                font-weight: bold;
+                transition: color .1s;
+                list-style: none;
+            }
+            .close-login:hover{
+                color: #E14E39;
+                cursor: pointer;                
+            }
+            .loginForm h1{
+                margin:5px 20px 0px 0px;
+                font-size: 40px;
+                font-weight: bold;
+                width:95px;
+                margin-top:30px;                
+            }
+            .loginForm form a{
+                font-weight: bolder;
+                font-size:20px;
+                cursor: pointer;
+                
+            }
+            .loginForm form a:hover{
+                font-weight: bolder;
+                font-size:20px;
+                cursor: pointer;
+                text-decoration: underline;
+            }
+            
+/*----------------signUp From------------------*/
+
+#signupForm{
+    width:400px;
+    height:720px;
+    border:3px black solid;
+    border-radius: 10px;
+}
+#signupForm::backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#signupForm h1{
+    margin:12px 35px 0px 0px;
+    width:95px;
+    font-size: 40px;
+}
+.closeSignup{
+    float: right;
+    border:none;
+    background-color:white;
+                margin: 1px 9px 0px 0px;
+                font-size: 25px;
+                text-align: center;
+                font-weight: bold;
+                transition: color .1s;
+                list-style: none;
+                
+}
+.closeSignup:hover{
+    color: #E14E39;
+                cursor: pointer;                
+}
+
+.closeSignup:focus{
+    background-color: white;                 
+}
+
+.signup-button{
+    margin-top:20px;
+    width: 100%;
+    padding:5px;
+    border:2px black solid;
+    border-radius: 5px;
+    background-color: #E14E39;
+    color: white;
+    font-size:18px;
+    cursor: pointer;
+}
+.signup-button:hover{
+    color: black;
+    border:2px solid black;            
+}
+.signin{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+/* -----------purposes section--------- */
+
+#purposes{
+    min-height: 450px;
+    background-color: rgb(191, 214, 240);
+}
+
+#purposes .container1{
+    min-height: 450px;
+    /* background-color: #b9e7f1; */
+
+}
+
+#purposes h1{
+    float:left;
+    width:850px;
+    height:auto;
+    font-size: 50px;
+    font-weight:900;
+    /* font-family: 'Pacifico'; */
+    padding-top: 20px;
+    margin-top:100px;
+    animation: move-heading 1.5s;
+}
+@keyframes move-heading{
+    from{transform:translateX(-500px);}
+    to{transform:translateX(0px);}
+}
+
+.listcontainer{
+    margin:0;
+    width:710px;
+    height:auto;
+}
+
+.arrow{
+    margin-top:10px;
+    height:40px;
+    width:auto;
+    float:left;
+}
+
+#purposes li{
+    list-style-type: none;
+    font-weight:bolder;
+    font-size:40px;
+    margin:20px;
+    padding-left:40px;
+    transition: transform .5s ease;
+    transform: translateX(-5px);
+}
+
+#purposes li:hover{
+    transform: translateX(40px);
+}
+
+aside{
+    float:right;
+}
+
+#purposes .branding{
+    margin-top:30px;
+    margin-right: 19px;
+    width:350px;
+    font-size:30px;
+    text-align:center;
+    font-family: 'Varela Round', sans-serif;
+    color:black;
+}
+
+aside h2{
+    font-weight: 500;
+}
+
+#purposes hr{
+    height:3px;
+    background:black;
+    border:none;
+    border-radius:5px;
+    margin:0;
+}
+
+#purposes .branding p{
+    font-size: 25px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight:600;
+}
+
+.animationcontainer{
+    float:right;
+    margin-right:40px;
+}
+
+.square{
+    display:inline-block;
+    height:55px;
+    width:100px;
+    border: 0px;
+    background-color: #123c69;
+    margin-top:0px;
+    margin-left:2px;
+    float:right;
+    animation: twirl 2s infinite ;
+}
+
+@keyframes twirl{
+    0% {
+        transform:rotateY(0);  
+    }
+    100% {
+        transform: rotateY(360deg);  
+    }
+}
+
+.square6{
+    margin-top:2px;
+    margin-left:4px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height:21px;
+    width:25px;
+    animation:twirl1 3s infinite;
+}
+
+@keyframes twirl1{
+    0% {
+        transform:rotateX(0);
+    }
+    100% {
+        transform: rotateX(360deg);
+    }
+}
+
+/* -------------------deals in section------------------------ */
+
+#dealsin h1{
+    text-align:center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 0 5px 0;
+}
+
+#dealsin hr{
+    width:150px;
+    height:3px;
+    border:none;
+    border-radius:5px;
+    background: black;
+    text-align:center;
+}
+
+.flexboxes {
+    display:flex;
+    color:black;
+}
+
+#dealsin .flexboxes .box{
+    margin:4% 5%;
+    border-radius:3px;
+    text-align: center;
+    flex:1;
+    background:rgb(191, 214, 240);
+    box-shadow: -20px 20px 0px #123c69; 
+}
+
+
+#dealsin .flexboxes h1 a {
+    font-weight: bold;
+    border:none;
+    color:black;
+    text-decoration: none;
+}
+
+/* ----------about section-------------  */
+
+
+#about h1{
+    text-align:center;
+    font-size: 30px;
+    padding: 20px 0 5px 0;
+}
+
+#about hr{
+    width:150px;
+    height:3px;
+    border:none;
+    border-radius:5px;
+    background: black;
+    text-align:center;
+}
+
+#about p{
+    text-align:center;
+    word-spacing:4px;
+    line-height: 35px;
+    width:85%;
+    margin:auto;
+    font-size:18px;
+    font-weight:900;
+}
+
+/* ----------services section-------------  */
+
+
+#services h1{
+    text-align:center;
+    font-size: 30px;
+    padding: 40px 0 5px 0;
+}
+
+#services hr{
+    width:180px;
+    height:3px;
+    border:none;
+    border-radius:5px;
+    background: black;
+    text-align:center;
+}
+
+#services p{
+    text-align:center;
+    word-spacing:4px;
+    line-height: 25px;
+    width:85%;
+    margin:auto;
+    font-size:18px;
+    font-weight:600;
+}
+
+#services .flexboxes {
+    display:flex;
+    /* justify-content: space-around; */
+    align-items:flex-start;
+}
+
+#services .flexboxes .box{
+    padding: 10px;
+    margin:1%;
+    border-radius:5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight:600;
+    /* flex:1; */
+    background:rgb(191, 214, 240);
+}
+
+
+
+/*----------------footer-------------------*/
+
+.footer h1{
+    font-size:35px;
+}
+.footer hr{
+    width:230px;
+    height:2px;
+    background-color:black;
+}
+.imgLinks{
+    margin-top:20px;
+}
+.imgLinks h1{
+    font-size:28px;
+    display:inline;
+}
+.imgLinks img{
+    
+    display:inline;
+    width:30px;
+    height:auto;
+}
+.footerBottom{
+    display:flex;
+    margin-top:20px;
+}
+.footerDetails{
+/*    background-color :rgb(191, 214, 240);*/
+   width:450px;
+   flex:3;
+}
+.footerDetails p{
+    color:#123c69;
+    font-size:20px;
+    margin:5px 0px 0px 30px;
+    font-weight:bold;
+}
+.footer .footerArt{
+    width:450px;
+    height:120px;
+    flex:7;
+    padding-top:10px;
+}
